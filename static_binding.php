@@ -3,7 +3,7 @@ class One{
     public static  $name;
     public static function  Author()
     {
-       return static::$name="waifer";
+       return static::$name="htin oo htut";
     }
    public static function getAuthorName(){
       return   static::Author();
@@ -13,7 +13,7 @@ class One{
 class Two extends One{
   public static function getAuthorName()
   {
-      return static::Author()." and koler";
+      return static::Author()." and auu htut";
   }
 }
 echo One::getAuthorName();
