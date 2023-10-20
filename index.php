@@ -1,2 +1,2 @@
 <?php
-include_once "singleton.php";
+include_once "return.php";
