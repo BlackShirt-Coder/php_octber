@@ -1,2 +1,2 @@
 <?php
-include_once "closure_func.php";
+include_once "variadic.php";
