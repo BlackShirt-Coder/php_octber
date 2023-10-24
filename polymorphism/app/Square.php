@@ -5,7 +5,9 @@ namespace app;
 
 
 
-class Square
+use app\gen\Shape;
+
+class Square implements Shape
 {
     private $width,$height;
     public function __construct($width,$height)
@@ -14,8 +16,11 @@ class Square
         $this->height=$height;
 
     }
-    public function getArea(){
-        return $this->width * $this->height;
+
+
+    public function getArea()
+    {
+     return   $this->width*$this->height;
     }
 
 }
